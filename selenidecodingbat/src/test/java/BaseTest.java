@@ -19,7 +19,6 @@ abstract public class BaseTest {
     @BeforeMethod
     public void init(){
         setUp();
-        Selenide.clearBrowserCookies();
         open("https://codingbat.com/java");
     }
     @AfterMethod
