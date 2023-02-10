@@ -1,9 +1,9 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import page.BasePage;
-import page.PyhtonPage;
-import page.JavaPage;
 import page.AboutCodingBatPage;
+import page.BasePage;
+import page.JavaPage;
+import page.PyhtonPage;
 
 
 public class CodingBat extends BaseTest {
