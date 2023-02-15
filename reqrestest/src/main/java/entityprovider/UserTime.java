@@ -2,6 +2,7 @@ package entityprovider;
 
 /**
  * Class creates a user body to get the time
+ *
  * @author Irina.Znamerovskay
  * @data 10.02.2023
  */

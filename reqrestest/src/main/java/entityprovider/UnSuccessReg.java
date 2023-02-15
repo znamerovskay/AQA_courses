@@ -2,6 +2,7 @@ package entityprovider;
 
 /**
  * Class generates an error body to check for unsuccessfully registration
+ *
  * @author Irina.Znamerovskay
  * @data 10.02.2023
  */

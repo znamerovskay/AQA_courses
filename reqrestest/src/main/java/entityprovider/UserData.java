@@ -2,6 +2,7 @@ package entityprovider;
 
 /**
  * Class creates a user body
+ *
  * @author Irina.Znamerovskay
  * @data 10.02.2023
  */
