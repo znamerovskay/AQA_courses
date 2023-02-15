@@ -1,4 +1,4 @@
-import com.tngtech.java.junit.dataprovider.DataProvider;
+import com.tngtech.java.junit.dataprovider.DataProvider; 
 import entityprovider.Register;
 import entityprovider.SuccessReg;
 import org.junit.Assert;
@@ -16,7 +16,7 @@ import static io.restassured.RestAssured.given;
 public class PostRegisterSuccessfulTest extends BaseTest {
 
     @Test
-    public void successRegTest() {
+    public void successRegTest(final String email, final String password) {
         Specifications.installSpecification(Specifications.requestSpec(BASE_URL), Specifications.responseSpecOK200());
         Integer id = 4;
         String token = "QpwL5tke4Pnpja7X4";

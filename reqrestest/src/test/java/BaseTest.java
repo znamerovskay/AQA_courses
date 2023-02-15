@@ -1,4 +1,5 @@
 
+import dataprovider.PostRegSuccessfulProvider;
 import entityprovider.*;
 import specifications.Specifications;
 
@@ -13,6 +14,7 @@ public abstract class BaseTest {
 
     Specifications spec = new Specifications();
     BaseEntityProvider baseEntProv = new BaseEntityProvider();
+    PostRegSuccessfulProvider provider = new PostRegSuccessfulProvider();
 
     protected final String BASE_URL = "https://reqres.in/";
 
