@@ -5,8 +5,19 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
+/**
+ * Class PropertiesFactory
+ *
+ * @author Irina.Znamerovskay
+ * @data 16.02.2023
+ */
 public class PropertiesFactory {
 
+    /**
+     * Method getUrl with project.properties
+     * @param name
+     * @return
+     */
     public static String getUrl(String name) {
         Properties prop = new Properties();
         try {
@@ -16,6 +27,12 @@ public class PropertiesFactory {
         }
         return prop.getProperty(name);
     }
+
+    /**
+     * Method getEngineValue with project.properties
+     * @param name
+     * @return
+     */
     public static String getEngineValve(String name) {
         Properties prop2 = new Properties();
         try {
@@ -25,6 +42,12 @@ public class PropertiesFactory {
         }
         return prop2.getProperty(name);
     }
+
+    /**
+     * Method getCamera with project.properties
+     * @param name
+     * @return
+     */
     public static String getCamera(String name) {
         Properties prop3 = new Properties();
         try {
